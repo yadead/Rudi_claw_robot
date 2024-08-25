@@ -125,7 +125,6 @@ int positions[5][5] = {
 RobotArm robotArm(servoPins, positions);
 ColorSensor colorSensor(160, 100, 100);
 
-
 void setup() {
   Serial.begin(9600);
   robotArm.moveToPosition(0);
